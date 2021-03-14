@@ -1,0 +1,29 @@
+/* GRID STYLES */
+
+#inputDiv{
+    text-align:center;
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+
+#search{
+    padding: 1rem;
+    width: 40%;
+    border-radius: 5px;
+    border-color: #ddd;
+    border-style: solid;  
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin: auto;
+    max-width: 962px;
+    text-align: center;
+}
+
+  .grid-item {
+      text-align: center
+  }
